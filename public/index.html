@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quick Notes</title>
+  <style>
+    body { font-family: sans-serif; max-width: 450px; margin: 40px auto; padding: 0 16px; background: #f4f6f8; }
+    h2 { color: #333; }
+    input { width: 70%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; }
+    button { padding: 8px 12px; background: #2563eb; color: #fff; border: none; border-radius: 4px; cursor: pointer; }
+    ul { list-style: none; padding: 0; margin-top: 20px; }
+    li { background: #fff; padding: 10px; margin-bottom: 8px; border-radius: 4px; border: 1px solid #e2e8f0; }
+  </style>
+</head>
+<body>
+  <h2>📝 Quick Notes</h2>
+  <div>
+    <input type="text" id="noteInput" placeholder="Write a note..." />
+    <button onclick="addNote()">Add</button>
+  </div>
+  <ul id="notesList"></ul>
+  <script src="script.js"></script>
+</body>
+</html>
