@@ -12,7 +12,7 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "expres": "^0.0.5"
-  },
-  "devDependencies": {}
+    "expres": "^0.0.5",
+    "express": "^5.3.0"
+  }
 }
